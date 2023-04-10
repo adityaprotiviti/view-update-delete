@@ -1,0 +1,10 @@
+Bundle-Name: Module1s-api
+Bundle-SymbolicName: Module1s.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	Module1s.exception,\
+	Module1s.model,\
+	Module1s.service,\
+	Module1s.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../Module1s-service/service.xml

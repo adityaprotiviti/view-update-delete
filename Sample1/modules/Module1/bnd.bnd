@@ -1,0 +1,6 @@
+Bundle-Name: Module1
+Bundle-SymbolicName: Module1
+Bundle-Version: 1.0.0
+Export-Package: Module1.constants, Module1.portlet
+Import-Package: \*; resolution:=optional
+Include-Resource: @poi-3.10-FINAL.jar, @poi-ooxml-3.10-FINAL.jar, @poi-ooxml-schemas-3.10-FINAL.jar, @xml-apis-1.0.b2.jar, @xmlbeans-2.3.0.jar
